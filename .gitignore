@@ -1,0 +1,48 @@
+# Ignore .env
+.env
+
+# Ignore all of .mvn except the wrapper JAR
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore /bin directory (often used for compiled output)
+bin/
+
+# Ignore /logs directory
+logs/
+
+# Ignore Maven target directories
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Other
+HELP.md
